@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Маковский Макар | Веб-разработчик</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e8f4fc;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+
+        .job, .education {
+            margin-bottom: 15px;
+        }
+
+        .job-title, .edu-title {
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .date {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Маковский Макар Дмитриевич</h1>
+        <div>Веб-разработчик, 18 лет</div>
+        <div class="contact-info">
+            <div class="contact-item">
+                <span>📱</span>
+                <span>[Ваш телефон]</span>
+            </div>
+            <div class="contact-item">
+                <span>✉️</span>
+                <span><a href="mailto:your.email@example.com">your.email@example.com</a></span>
+            </div>
+            <div class="contact-item">
+                <span>🌐</span>
+                <span><a href="https://github.com/yourprofile" target="_blank">github.com/yourprofile</a></span>
+            </div>
+            <div class="contact-item">
+                <span>📍</span>
+                <span>[Ваш город]</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>О себе</h2>
+        <p>Молодой и амбициозный веб-разработчик с опытом создания современных веб-приложений. Увлекаюсь frontend-разработкой, но также имею базовые навыки работы с backend. Стремлюсь к профессиональному росту и изучению новых технологий.</p>
+    </div>
+
+    <div class="section">
+        <h2>Навыки</h2>
+        <div class="skills">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Git</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">Bootstrap</div>
+            <div class="skill">Node.js (базовый)</div>
+            <div class="skill">Figma</div>
+            <div class="skill">Webpack</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Опыт работы</h2>
+        <div class="job">
+            <div class="job-title">
+                <span>Frontend-разработчик (стажер)</span>
+                <span class="date">2023 - настоящее время</span>
+            </div>
+            <div>[Название компании]</div>
+            <ul>
+                <li>Разработка пользовательских интерфейсов с использованием React</li>
+                <li>Верстка адаптивных макетов по Figma</li>
+                <li>Участие в код-ревью</li>
+                <li>Исправление багов и оптимизация производительности</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-title">
+                <span>Фриланс-проекты</span>
+                <span class="date">2022 - 2023</span>
+            </div>
+            <ul>
+                <li>Создание лендингов для малого бизнеса</li>
+                <li>Доработка существующих сайтов (добавление функционала, исправление ошибок)</li>
+                <li>Оптимизация скорости загрузки веб-страниц</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Образование</h2>
+        <div class="education">
+            <div class="edu-title">
+                <span>[Название учебного заведения]</span>
+                <span class="date">2022 - 2026</span>
+            </div>
+            <div>Специальность: Программная инженерия (неоконченное высшее)</div>
+        </div>
+
+        <div class="education">
+            <div class="edu-title">
+                <span>Курсы по веб-разработке</span>
+                <span class="date">2021 - 2022</span>
+            </div>
+            <div>HTML Academy, Stepik, Udemy</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Проекты</h2>
+        <ul>
+            <li><strong>Интернет-магазин (Pet-проект)</strong> - SPA на React с корзиной товаров и фильтрами</li>
+            <li><strong>Социальная сеть для разработчиков</strong> - Прототип с авторизацией и лентой постов</li>
+            <li><strong>Портфолио фотографа</strong> - Адаптивный сайт с галереей и формой обратной связи</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Дополнительная информация</h2>
+        <ul>
+            <li>Английский язык - Intermediate (B1)</li>
+            <li>Готов к переезду и релокации</li>
+            <li>Увлекаюсь UI/UX дизайном</li>
+            <li>Участвую в хакатонах и IT-мероприятиях</li>
+        </ul>
+    </div>
+</body>
+</html>
